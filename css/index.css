@@ -5,6 +5,9 @@
 @import './button-icon.css';
 @import './sidebar.css';
 @import './ellipsis.css';
+@import './slider.css';
+@import './player-controls.css';
+
 
 
 :root { 

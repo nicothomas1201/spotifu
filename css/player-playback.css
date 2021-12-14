@@ -1,0 +1,23 @@
+.playerPlayback{
+  /* border: 1px solid green;   */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
+  /* inline-size: 35.37rem; */
+  /* margin: auto; */
+}
+
+.playerPlayback-slider{
+  flex: 1;
+}
+
+
+
+.playerPlayback-progressTime{
+  font: var(--small);
+  line-height: 1;
+  position: relative;
+  top: 1px;
+
+}
