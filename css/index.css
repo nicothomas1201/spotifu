@@ -7,10 +7,13 @@
 @import './ellipsis.css';
 @import './slider.css';
 @import './player-controls.css';
-
+@import './player-volume.css';
+@import './player.css';
+@import './now-palying.css';
 
 
 :root { 
+  font-size: 16px;
   --primary: #00b050;
   --white: #ffffff;
   --gray10: #b3b3b3;

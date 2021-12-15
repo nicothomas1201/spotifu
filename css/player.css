@@ -1,0 +1,14 @@
+.player-control{
+  border: none;
+  padding: 0;
+  color: var(--gray10);
+  background-color: transparent;
+  font-size: 1.5rem;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.player-control:hover{
+  transition: color .1s linear;
+  color: var(--primary);
+}
