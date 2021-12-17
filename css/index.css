@@ -6,10 +6,10 @@
 @import './sidebar.css';
 @import './ellipsis.css';
 @import './slider.css';
-@import './player-controls.css';
-@import './player-volume.css';
 @import './player.css';
-@import './now-palying.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
 
 
 :root { 
@@ -31,7 +31,8 @@
   --small: normal .75em/normal var(--baseFontFamily);
 }
 
-
-
-
-
+@media screen and (min-width: 1336px) {
+  ::root{
+    font-size: 20px;
+  }
+}
