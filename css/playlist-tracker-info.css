@@ -1,0 +1,21 @@
+.playlistTrackerInfo{
+  display: flex;
+  align-items: center;
+  inline-size: 100%;
+  padding-inline-start: .625rem;
+  padding-inline-end: .625rem;
+  gap: .5rem;
+  box-sizing: border-box;
+  border-block-end: 1px solid var(--gray10);
+  margin-block-end: 1rem;
+  
+}
+
+.playlistTrackerInfo h4{
+  font: var(--small);
+  color: var(--white);
+}
+
+.playlistTrackerInfo .playlistTracker-cover::before{
+  content: '#';
+}

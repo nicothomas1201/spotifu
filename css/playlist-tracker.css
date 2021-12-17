@@ -1,0 +1,62 @@
+.playlistTracker{
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  inline-size: 100%;
+  padding-block-start: .5rem;
+  padding-block-end: .5rem;
+  padding-inline-start: .625rem;
+  padding-inline-end: .625rem;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
+
+
+.playlistTracker:hover{
+  background: #FFFFFF33;
+}
+
+
+.playlistTracker-cover::before{
+  content: counter(numberSong, decimal);
+  display: inline-block;
+  inline-size: 1.875rem;
+  block-size: 1.375rem;
+  margin-inline-end: .5rem;
+}
+
+
+
+.playlistTracker h4{
+  color: var(--white);
+  font: var(--small);
+  margin: 0;
+}
+
+.playlistTracker-cover{
+  display: flex;
+  align-items: center;
+  inline-size: 14.4375rem;
+  block-size: 2.5rem;
+  counter-increment: numberSong;
+}
+
+.playlistTracker-cover h4:nth-child(2){
+  color: var(--gray10);
+}
+
+.playlistTracker-detailsSong{
+  margin-inline-start: .5rem;
+}
+
+.playlistTracker-details{
+  display: flex;
+  gap: .5rem;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}

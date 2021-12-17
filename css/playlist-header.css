@@ -1,0 +1,30 @@
+.playlistHeader{
+  display: flex;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  margin-block-start: .5rem;
+  margin-block-end: .5rem;
+}
+
+.playlistHeader-frontPage img{
+  vertical-align: middle;
+}
+
+.playlistHeader-details{
+  align-self: flex-end;
+}
+
+.playlistHeader-details h4{
+  color: var(--gray10);
+  font: var(--small);
+}
+
+.playlistHeader-title{
+  font: var(--headLine1);
+  color: var(--white);
+}
+
+.playlistHeader-details > *{
+  margin: 0;
+}
+

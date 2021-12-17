@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>lkajd</title>
+</head>
+<body class="body">
+
+<div class="layout">
+  <div class="layout-block">
+    <div class="layout-sidebar">
+      <div class="sidebar">
+        <header class="logo" >
+          <a href="/" aria-current="page">
+            <img src="./images/spotifu-logo.png" class="logo-image" width="112" height="32" alt="Logo de Spotifu">
+          </a>
+        </header>
+        
+        <!-- menu principal -->
+        <nav class="menu" aria-label="Principal">
+          <ul class="menu-list">
+            <li class="menuItem is-active">
+              <a href="/" class="link" aria-current="page">
+                <i class="icon-home" aria-hidden="true"></i>
+                <span>Inicio</span>
+              </a>
+            </li>
+          
+            <li class="menuItem">
+              <a href="#" class="link">
+                <i class="icon-search" aria-hidden="true"></i>
+                <span>Buscar</span>
+              </a>
+            </li>
+                
+            <li class="menuItem">
+              <a href="#" class="link">
+                <i class="icon-creditCard" aria-hidden="true"></i>
+                <span>Premium</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+          
+        <!-- Menu libreria -->
+        <nav class="list" aria-labelledby="library-navigation">
+          <h2 class="list-title" id="library-navigation">Tu biblioteca</h2>
+          <ul class="list-content">
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Creada para ti</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Escuchado recientemente</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Tus Me Gusta</a>
+              </span>
+            </li>
+          </ul>
+        </nav>
+          
+        <!-- Menu playlist -->
+        <nav class="list" aria-labelledby="playlist-navigation">
+          <h2 class="list-title" id="playlist-navigation">Playlist</h2>
+          <ul class="list-content">
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">FIESTA MUSICA</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">mostiperro</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Hecho en medellín</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Feroz Pump 🔥</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Letha Injection</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">BLOQ</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Flakk Daniel's Lp</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">LA ISLA LP</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Chill Music 2021</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">mostichill</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">lofi hip hop music - beats to relax/study to</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">mostihot</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Pokemo</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Para cantar</a>
+              </span>
+            </li>
+            <li class="list-item">
+              <span class="ellipsis">
+                <a href="#" class="link">Yui</a>
+              </span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="layout-main">
+        <div class="sticky">
+          <header class="header" aria-label="Barra superior y menú del usuario">
+            <div class="navigation">
+              <button class="navigation-prev" aria-label="Volver" title="Volver">
+                <i class="icon-arrowLeft" aria-hidden="true"></i>
+              </button>
+              <button class="navigation-next" disabled aria-label="Siguiente" title="Siguiente">
+                <i class="icon-arrowRight" aria-hidden="true"></i>
+              </button>
+            </div>
+            <form class="search" role="search" aria-label="Buscar por Artistas, canciones o podcast">
+              <i  class="icon-search" aria-hidden="true"></i>
+              <input type="search" placeholder="Buscar por Artistas, canciones o podcas">
+            </form>
+          </header>
+        </div>
+        <div class="playlistHeader">
+          <div class="playlistHeader-frontPage">
+            <img src="./images/img-2.jpg" width="232" height="232" alt="Portada playlist mosti perreo">
+          </div>
+          <div class="playlistHeader-details ellipsis">
+            <h4>PLAYLIST</h4>
+            <h1 class="playlistHeader-title">Demon Slayer: Kimetsu no Yaiba 鬼滅の刃 Anime Soundtrack OST / OPENING Gurenge 紅蓮華 ...</h1>
+            <h4>"Kamado Tanjiro no Uta / 竈門炭治郎のうた",  "Homura / 炎 ( ほむら )" </h4>
+          </div>
+        </div>
+      <main class="playlistListContainer">
+        <div class="playlistListTracker">
+          <div class="playlistTrackerInfo">
+            <div class="playlistTracker-cover">
+              <h4 class="playlistTrackerInfo-title">TÍTULO</h4>
+            </div>
+            <div class="playlistTracker-details">
+              <h4 class="playlistTrackerInfo-album">Album</h4>
+              <h4 class="playlistTrackerInfo-date">AGREGADO EL</h4>
+              <i class="icon-clock"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="playlistListTracker">
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="https://i.scdn.co/image/ab67616d000048515900fe27b6fbc39bb242e78b" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Calor</h4>
+                <h4 class="playlistTracker-artist">Rayo & Toby</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:10</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="https://i.scdn.co/image/ab67616d00004851c431ed1bca87fbb3ddf1535f" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Guatauba</h4>
+                <h4 class="playlistTracker-artist">Plan B</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">2:42</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="https://i.scdn.co/image/ab67616d000048512867fbc15a0f6e8887c2d454" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Me Pones en Tensión</h4>
+                <h4 class="playlistTracker-artist">The Noise, Zion & Lennox</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Biografía</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:24</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          <div class="playlistTracker">
+            <div class="playlistTracker-cover">
+              <img src="./images/img-3.jpg" width="40" height="40" alt="">
+              <div class="playlistTracker-detailsSong">
+                <h4 class="playlistTracker-title">Titulo del track</h4>
+                <h4 class="playlistTracker-artist">Artist</h4>
+              </div>
+            </div>
+        
+            <div class="playlistTracker-details">
+              <h4 class="playlistTracker-album">Gurenge</h4>
+              <h4 class="playlistTracker-date">3 de jul. de 2019</h4>
+              <h4 class="playlistTacker-time">3:58</h4>
+            </div>
+          </div>
+          
+        </div>
+      </main>
+    </div>
+  </div>
+
+
+  <div class="layout-block">
+    <footer class="layout-bottom">
+      <div class="player">
+        <div class="player-nowPlaying">
+          <div class="nowPlaying">
+            <div class="nowPlaying-cover">
+              <img src="./images/grand-scape.png" width="56" height="56" alt="Portada de Grand Escape (feat. Tokio Miura) de RADWIMPS, Toko Miura" title="Portada de Grand Escape (feat. Tokio Miura) de RADWIMPS, Toko Miura">
+            </div>
+            <div class="nowPlaying-details">
+              <div class="nowPlaying-description">
+                <a href="#song" class="nowPlaying-title">
+                  Grand Escape (feat. Tokio Miura)
+                </a>
+                <a href="#RADWIMPS" class="nowPlaying-artist">
+                  RADWIMPS, Toko Miura
+                </a>
+              </div>
+              <div class="nowPlaying-actions">
+                <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en tu biblioteca" title="Guardar en tu biblioteca">
+                  <i class="icon-heart" aria-hidden="true"></i>
+                </button>        
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="player-playerControls">
+          <div class="playerControls">
+            <div class="playerControls-buttons" aria-label="Controles de reproducción">
+              <button class="buttonIcon " aria-label="Anterior" title="Anterior">
+                <i class="icon-prev" aria-hidden="true"></i>
+              </button>
+              
+              <button class="buttonIcon is-white" aria-label="Reproducir" title="Reproducir">
+                <i class="icon-play" aria-hidden="true"></i>
+              </button>
+              
+              <button class="buttonIcon " aria-label="Siguiente" title="Siguiente">
+                <i class="icon-next" aria-hidden="true"></i>
+              </button>
+            </div>
+            <div class="playerPlayback">
+              <span class="playerPlayback-progressTime">01:40</span>
+              <div class="playerPlayback-slider">
+                <div class="slider">
+                  <div class="slider-progress">
+                    <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                  </div>
+                </div>
+              </div>
+              <span class="playerPlayback-progressTime">01:40</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="player-playerVolume">
+          <div class="playerVolume">
+            <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+              <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+            </button>
+            <div class="playerVolume-slider">
+              <div class="slider">
+                <div class="slider-progress">
+                  <button class="slider-button" aria-label="Controlar el progreso de la reproduccion"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>

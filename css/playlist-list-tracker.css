@@ -1,0 +1,8 @@
+@import './playlist-tracker-info.css';
+@import './playlist-tracker.css';
+
+.playlistListTracker{
+  counter-reset: numberSong;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+}
