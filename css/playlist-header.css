@@ -11,12 +11,23 @@
 }
 
 .playlistHeader-details{
+  margin-inline-start: .625rem;
+  margin-inline-end: .625rem;
   align-self: flex-end;
+}
+
+.playlistHeader-details  h1{
+  margin-block-end: .625rem;
 }
 
 .playlistHeader-details h4{
   color: var(--gray10);
   font: var(--small);
+  margin-block-end: .625rem;
+}
+
+.playlistHeader-details h4:last-of-type{
+  margin: 0;
 }
 
 .playlistHeader-title{

@@ -11,6 +11,7 @@
   border: none;
   cursor: pointer;
   box-sizing: border-box;
+  font-size: 1.25rem;
 }
 
 
@@ -29,7 +30,9 @@
   margin-inline-end: .5rem;
 }
 
-
+.playlistTracker-details div{
+  max-inline-size: 21.43rem;
+}
 
 .playlistTracker h4{
   color: var(--white);
@@ -40,7 +43,7 @@
 .playlistTracker-cover{
   display: flex;
   align-items: center;
-  inline-size: 14.4375rem;
+  inline-size: 16.8125rem;
   block-size: 2.5rem;
   counter-increment: numberSong;
 }
